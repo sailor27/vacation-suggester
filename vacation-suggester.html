@@ -21,37 +21,41 @@
 
       <form id="quiz">
 
+        <div class="form-group">
+           <label for="user">Enter your name:</label>
+           <input id="user" class="form-control" type="text">
+         </div>
+
         <div id= "photoquestion">
           <h3>Choose a photo that appeals to you:</h3>
-
           <div class="radio">
             <label>
               <input type="radio" name="photo" value="fish" checked>
-            photo of a fish
+              <img src="img/fish.jpeg" class="img-responsive" alt = "Photo of a fish">
             </label>
           </div>
 
           <div class="radio">
             <label>
               <input type="radio" name="photo" value="boot" checked>
-              photo of a stylish boot
+              <img src="img/boot.jpeg" class="img-responsive" id="fishalt = "photo of a stylish boot">
             </label>
           </div>
         </div>
 
         <div id="radioquestion">
-          <h3>Choose a radio station</h3>
+          <h3>Choose a radio station:</h3>
           <div class="radio">
             <label>
               <input type="radio" name="radio" value="country" checked>
-              ~country music station
+              88.4 The Twirlin' Lasso
             </label>
           </div>
 
           <div class="radio">
             <label>
               <input type="radio" name="radio" value="rhcp">
-              BAD
+              WMSU College Radio
             </label>
           </div>
         </div>
@@ -74,7 +78,7 @@
         </div>
 
         <div id="vehiclequestion">
-          <h3>How are you traveling?</h3>
+          <h3>How are you traveling?:</h3>
           <div class="radio">
             <label>
               <input type="radio" name="vehicle" value="jeep" checked>
@@ -91,7 +95,7 @@
         </div>
 
         <div id="snackquestion">
-          <h3>Choose a snack food</h3>
+          <h3>Choose a snack food:</h3>
           <div class="radio">
             <label>
               <input type="radio" name="snack" value="coffee" checked>
@@ -101,15 +105,15 @@
 
           <div class="radio">
             <label>
-              <input type="radio" name="snack" value="funnelcake">
-              funnel cake
+              <input type="radio" name="snack" value="cake">
+              Armadillo-shaped cake
             </label>
           </div>
         </div>
         <button type="submit" class="btn-primary">submit</button>
-      </form
-
-      <div id="output">
+      </form>
+      <div id="suggestion">
+        <h3><span id="output1"></span>, your ideal vacation desitination is:<br>         <span id="output2"></span></h3>
       </div>
 
     </div>

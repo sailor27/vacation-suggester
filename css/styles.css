@@ -1,0 +1,26 @@
+body {
+  background-color:#ccf2ff;
+}
+
+.jumbotron {
+  background-color:#ccfff2;
+  padding: 20px;
+}
+
+#fish {
+  max-width: 300px;
+}
+
+
+#output1 {
+  font-size: 1em;
+}
+
+#output2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#suggestion {
+    display: none;
+}
