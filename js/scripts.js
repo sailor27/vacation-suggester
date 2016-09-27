@@ -10,13 +10,13 @@ $(document).ready(function() {
     var result;
     if (vehicleChoice === "jeep" || radioChoice === "rhcp") {
       result = "COACHELLA.";
-   } else if (photoChoice === "boot"){
-     result = "DOLLYWOOD.";
-   } else if (lookChoice === "practical"){
-    result = "ICE FISHING.";
-   } else if (photoChoice === "fish" && lookChoice === "tasteless"){
-     result = ("COACHELLA.");
-   }
+     } else if (photoChoice === "boot"){
+       result = "DOLLYWOOD.";
+     } else if (lookChoice === "practical"){
+      result = "ICE FISHING.";
+     } else if (photoChoice === "fish" && lookChoice === "tasteless"){
+       result = ("COACHELLA.");
+     }
    $("#suggestion").slideDown();
    $("#output1").text(userName);
    $("#output2").text(result);
