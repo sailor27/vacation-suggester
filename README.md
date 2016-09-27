@@ -1,7 +1,7 @@
 # _Vacation Suggester_
 
-#### _This website contains an interactive quiz form that will give the user a
-suggested vacation destination, based on their answers to the questions._
+#### _**This website contains an interactive quiz form that will give the user a
+suggested vacation destination, based on their answers to the questions.**_
 
 #### By _**Sailor Winkelman**_
 
@@ -28,8 +28,8 @@ suggested vacation destination, based on their answers to a the questions._
 * _HTML_
 * _CSS_
 * _Bootstrap_
-*_Javascript_
-*_JQuery_
+* _Javascript_
+* _JQuery_
 
 ## License
 
