@@ -1,21 +1,20 @@
 # _Vacation Suggester_
 
-#### _**This website contains an interactive quiz form that will give the user a
-suggested vacation destination, based on their answers to the questions.**_
+#### _This website contains an interactive quiz form that will give the user a suggested vacation destination, based on their answers to the questions._
 
 #### By _**Sailor Winkelman**_
 
 ## Description
 
 _This website contains an interactive quiz form that will give the user a
-suggested vacation destination, based on their answers to a the questions._
+suggested vacation destination, based on their answers._
 
 ## Setup/Installation Requirements
 
 * _Open a web browser_
 * _Type your name in where it says "Enter your name"_
 * _Select answers to all 5 questions_
-*_Click "submit"_
+* _Click "submit"_
 
 ## Technology Used
 
